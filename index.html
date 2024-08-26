@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Eureka!</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script defer src="./main.js" type="module"></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Eureka!</h1>
+    </header>
+    <main class="home-main">
+        <div>
+            <!--INFO: search box-->
+            <section id="input-box" class="input-box input-box--search">
+                <div class="search-form">
+                    <input type="text" placeholder="search notes database..." />
+                    <button id="newnote" type="button">new note</button>
+                </div>
+
+                <form class="note-form" id="note-form">
+                    <div>
+                        <input id="note-title" type="text" placeholder="title" class="title" />
+                        <button id="closeForm" type="button">x</button>
+                    </div>
+                    <textarea id="note-desc" type="text" rows="5" placeholder="description..."
+                        class="description"></textarea>
+                    <button id="submit-note" type="submit">add note</button>
+                </form>
+            </section>
+
+            <!--INFO: note list-->
+            <section class="notes-list-wrapper">
+                <ul id="notes-list" class="notes-list">
+                </ul>
+                <p data-list-empty="true" class="no-notes-notice">You have not created any notes yet</p>
+            </section>
+        </div>
+    </main>
+
+</html>
