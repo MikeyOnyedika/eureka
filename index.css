@@ -267,6 +267,7 @@ header {
 
 
             &>p {
+                white-space: pre-wrap;
                 color: var(--clr-gray-500);
             }
         }
