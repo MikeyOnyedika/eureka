@@ -1,4 +1,4 @@
-# snote (incomplete)
+# snote (incomplete but functional)
 s(imple)note is a simple note-taking app that uses indexedDB to store all data locally on the browser without the need for a remote server or API.
 
 ## How to run.
